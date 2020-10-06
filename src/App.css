@@ -1,0 +1,31 @@
+@import "~antd/dist/antd.css";
+
+.ant-layout-header {
+  height: 64px;
+  padding: 0 50px;
+  /* color: rgba(0, 0, 0, 0.85); */
+  line-height: 64px;
+  background: #ffffff;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-direction: column;
+  height: calc(50vh - 60px);
+  text-align: center;
+  position: relative;
+}
+
+.site-layout .site-layout-background {
+  background: rgb(36, 40, 47);
+}
+
+.h1-test {
+  margin: 0px;
+  color: rgb(32, 35, 41);
+  border: none;
+  font-weight: 700;
+  z-index: 1;
+  font-size: 5.625rem;
+}
