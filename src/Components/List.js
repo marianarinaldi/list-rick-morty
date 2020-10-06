@@ -1,5 +1,5 @@
 import React from "react";
-import { Layout, Table } from "antd";
+import { Table } from "antd";
 
 function List(props) {
   const data = [];

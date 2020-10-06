@@ -34,18 +34,14 @@ function App() {
     return (
       <Layout>
         
-        <Header >
-          
+        <Header >          
           <h3 class="h1-test">List Rick and Morty</h3>
-      
-          
+               
         </Header>
         <Content className="site-layout" style={{ padding: '0 50px', marginTop: 64 }}>
           <div className="site-layout-background" style={{ padding: 24, minHeight: 380 }}>
-
-          <List items={items} />
+            <List items={items} />
           </div>
-
         </Content>
       </Layout>
     
